@@ -1,0 +1,10 @@
+User:
+  waruna:
+    user_name: waruna
+    password: Waruna123
+    employee_id: 1
+
+  Kapila:
+    user_name: kapila
+    password: Kapila123
+    employee_id: 2

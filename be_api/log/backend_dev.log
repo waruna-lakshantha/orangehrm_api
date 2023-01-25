@@ -1,0 +1,383 @@
+Jan 25 08:39:54 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:39:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:39:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:39:55 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:40:08 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:40:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:40:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:40:09 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:40:25 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:40:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:40:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:40:25 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:43:57 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_apix/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_apix',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:43:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:43:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:43:57 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:44:01 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_apix/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_apix',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:44:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:44:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:44:01 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:44:07 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:44:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:44:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:44:08 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:44:15 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna1/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna1',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:44:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:44:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:44:16 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:44:19 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:44:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:44:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:44:20 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:45:39 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:45:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:45:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:45:40 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:45:43 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:45:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:45:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:45:43 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:47:14 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:47:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:47:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:47:15 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:47:15 symfony [err] {LogicException} The route "/api/:token/:user_name/:password/auth.:sf_format" is not of type "list".
+Jan 25 08:47:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 25 08:47:17 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\response\sfWebResponse.class.php:409))
+Jan 25 08:47:17 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 08:47:17 symfony [info] {sfWebDebugLogger} Configuration 121.55 ms (8)
+Jan 25 08:47:17 symfony [info] {sfWebDebugLogger} Factories 349.57 ms (1)
+Jan 25 08:47:17 symfony [info] {sfWebDebugLogger} Action "api/auth" 2229.32 ms (1)
+Jan 25 08:50:19 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:50:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:50:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:50:19 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:50:19 symfony [err] {LogicException} The route "/api/:token/:user_name/:password/auth.:sf_format" is not of type "list".
+Jan 25 08:50:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 25 08:50:21 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 08:50:21 symfony [info] {sfWebDebugLogger} Configuration 95.27 ms (8)
+Jan 25 08:50:21 symfony [info] {sfWebDebugLogger} Factories 410.92 ms (1)
+Jan 25 08:50:21 symfony [info] {sfWebDebugLogger} Action "api/auth" 1798.30 ms (1)
+Jan 25 08:50:48 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 08:50:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 08:50:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 08:50:49 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 08:50:49 symfony [err] {LogicException} The route "/api/:token/:user_name/:password/auth.:sf_format" is not of type "list".
+Jan 25 08:50:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 25 08:50:50 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 08:50:50 symfony [info] {sfWebDebugLogger} Configuration 89.27 ms (8)
+Jan 25 08:50:50 symfony [info] {sfWebDebugLogger} Factories 347.99 ms (1)
+Jan 25 08:50:50 symfony [info] {sfWebDebugLogger} Action "api/auth" 1744.32 ms (1)
+Jan 25 09:00:30 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:00:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:00:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:00:31 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:00:32 symfony [err] {Doctrine_Table_Exception} Unknown method UserTable::getForToken
+Jan 25 09:00:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 25 09:00:33 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:00:33 symfony [info] {sfWebDebugLogger} Configuration 5729.10 ms (9)
+Jan 25 09:00:33 symfony [info] {sfWebDebugLogger} Factories 6033.35 ms (1)
+Jan 25 09:00:33 symfony [info] {sfWebDebugLogger} Action "api/auth" 2710.53 ms (1)
+Jan 25 09:00:39 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:00:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:00:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:00:40 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:00:40 symfony [err] {Doctrine_Table_Exception} Unknown method UserTable::getForToken
+Jan 25 09:00:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 25 09:00:42 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:00:42 symfony [info] {sfWebDebugLogger} Configuration 99.07 ms (8)
+Jan 25 09:00:42 symfony [info] {sfWebDebugLogger} Factories 332.70 ms (1)
+Jan 25 09:00:42 symfony [info] {sfWebDebugLogger} Action "api/auth" 2281.64 ms (1)
+Jan 25 09:02:21 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:02:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:02:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:02:22 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:02:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:02:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:02:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, Waruna123)
+Jan 25 09:02:23 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "getEmployee_Id" on "User"
+Jan 25 09:02:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 25 09:02:25 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:02:25 symfony [info] {sfWebDebugLogger} Configuration 110.05 ms (8)
+Jan 25 09:02:25 symfony [info] {sfWebDebugLogger} Factories 342.31 ms (1)
+Jan 25 09:02:25 symfony [info] {sfWebDebugLogger} Action "api/auth" 3643.32 ms (1)
+Jan 25 09:02:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 215.45 ms (3)
+Jan 25 09:04:24 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:04:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:04:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:04:24 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:04:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:04:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:04:26 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, Waruna123)
+Jan 25 09:04:26 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "getEmployee_id" on "User"
+Jan 25 09:04:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 25 09:04:28 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:04:28 symfony [info] {sfWebDebugLogger} Configuration 126.08 ms (8)
+Jan 25 09:04:28 symfony [info] {sfWebDebugLogger} Factories 848.13 ms (1)
+Jan 25 09:04:28 symfony [info] {sfWebDebugLogger} Action "api/auth" 3936.81 ms (1)
+Jan 25 09:04:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 20.96 ms (3)
+Jan 25 09:12:57 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:12:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:12:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:12:58 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:12:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:12:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:12:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, Waruna123)
+Jan 25 09:12:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 25 09:12:59 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "user_name" on "Employee"
+Jan 25 09:13:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 25 09:13:01 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:13:01 symfony [info] {sfWebDebugLogger} Configuration 90.84 ms (8)
+Jan 25 09:13:01 symfony [info] {sfWebDebugLogger} Factories 336.43 ms (1)
+Jan 25 09:13:01 symfony [info] {sfWebDebugLogger} Action "api/auth" 3701.56 ms (1)
+Jan 25 09:13:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 96.92 ms (4)
+Jan 25 09:16:33 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:16:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:16:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:16:34 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:16:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:16:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:16:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, Waruna123)
+Jan 25 09:16:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 25 09:16:35 symfony [err] {sfException} Call to undefined method sfWebRequest::getUser_Name.
+Jan 25 09:16:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 25 09:16:37 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:16:37 symfony [info] {sfWebDebugLogger} Configuration 101.02 ms (8)
+Jan 25 09:16:37 symfony [info] {sfWebDebugLogger} Factories 337.57 ms (1)
+Jan 25 09:16:37 symfony [info] {sfWebDebugLogger} Action "api/auth" 3363.61 ms (1)
+Jan 25 09:16:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 27.48 ms (4)
+Jan 25 09:18:11 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:18:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:18:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:18:12 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:18:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:18:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:18:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, Waruna123)
+Jan 25 09:18:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 25 09:18:14 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 25 09:18:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 25 09:18:15 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:18:15 symfony [info] {sfWebDebugLogger} Configuration 538.26 ms (10)
+Jan 25 09:18:15 symfony [info] {sfWebDebugLogger} Factories 377.17 ms (1)
+Jan 25 09:18:15 symfony [info] {sfWebDebugLogger} Action "api/auth" 1799.39 ms (1)
+Jan 25 09:18:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 33.00 ms (4)
+Jan 25 09:18:15 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 895.25 ms (1)
+Jan 25 09:18:15 symfony [info] {sfWebResponse} Send content (305 o)
+Jan 25 09:19:14 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:19:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:19:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:19:15 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:19:15 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "api/auth".
+Jan 25 09:19:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:19:17 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:19:17 symfony [info] {sfWebDebugLogger} Configuration 96.70 ms (8)
+Jan 25 09:19:17 symfony [info] {sfWebDebugLogger} Factories 340.63 ms (1)
+Jan 25 09:19:17 symfony [info] {sfWebDebugLogger} Action "api/auth" 1838.13 ms (1)
+Jan 25 09:21:22 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:21:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:21:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:21:23 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:21:23 symfony [notice] {sfWebDebugLogger}  Notice at D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules\api\actions\actions.class.php on line 18 (Undefined variable: parameters)
+Jan 25 09:21:23 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\exception\sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules\api\actions\actions.class.php:18))
+Jan 25 09:21:23 symfony [err] {sfError404Exception} invalid requeust.
+Jan 25 09:21:23 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\exception\sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules\api\actions\actions.class.php:18))
+Jan 25 09:21:25 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules\api\actions\actions.class.php:18))
+Jan 25 09:21:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:21:25 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules\api\actions\actions.class.php:18))
+Jan 25 09:21:25 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:21:25 symfony [info] {sfWebDebugLogger} Configuration 89.15 ms (8)
+Jan 25 09:21:25 symfony [info] {sfWebDebugLogger} Factories 471.30 ms (1)
+Jan 25 09:21:25 symfony [info] {sfWebDebugLogger} Action "api/auth" 2001.77 ms (1)
+Jan 25 09:22:01 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:22:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:22:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:22:01 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:22:01 symfony [err] {sfError404Exception} invalid requeust.
+Jan 25 09:22:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:22:03 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:22:03 symfony [info] {sfWebDebugLogger} Configuration 84.56 ms (8)
+Jan 25 09:22:03 symfony [info] {sfWebDebugLogger} Factories 302.27 ms (1)
+Jan 25 09:22:03 symfony [info] {sfWebDebugLogger} Action "api/auth" 1695.49 ms (1)
+Jan 25 09:22:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'hrm_api',  'waruna' => 'Waruna123',  'auth.json' => true,)
+Jan 25 09:22:29 symfony [info] {sfFrontWebController} Action "api/hrm_api" does not exist
+Jan 25 09:22:29 symfony [err] {sfError404Exception} Action "api/hrm_api" does not exist.
+Jan 25 09:22:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:22:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 25 09:22:30 symfony [info] {sfWebDebugLogger} Configuration 5703.29 ms (6)
+Jan 25 09:22:30 symfony [info] {sfWebDebugLogger} Factories 6006.71 ms (1)
+Jan 25 09:22:55 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:22:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:22:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:22:55 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:22:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:22:56 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:22:56 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, Waruna123)
+Jan 25 09:22:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 25 09:22:57 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 25 09:22:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 25 09:22:57 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:22:57 symfony [info] {sfWebDebugLogger} Configuration 107.77 ms (9)
+Jan 25 09:22:57 symfony [info] {sfWebDebugLogger} Factories 393.98 ms (1)
+Jan 25 09:22:57 symfony [info] {sfWebDebugLogger} Action "api/auth" 1651.59 ms (1)
+Jan 25 09:22:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 26.06 ms (4)
+Jan 25 09:22:57 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 166.95 ms (1)
+Jan 25 09:22:57 symfony [info] {sfWebResponse} Send content (305 o)
+Jan 25 09:23:39 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:23:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:23:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:23:39 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:23:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:23:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:23:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, Waruna123)
+Jan 25 09:23:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 25 09:23:43 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 25 09:23:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 25 09:23:43 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:23:43 symfony [info] {sfWebDebugLogger} Configuration 7710.44 ms (11)
+Jan 25 09:23:43 symfony [info] {sfWebDebugLogger} Factories 5809.11 ms (1)
+Jan 25 09:23:43 symfony [info] {sfWebDebugLogger} Action "api/auth" 3773.72 ms (1)
+Jan 25 09:23:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 25.05 ms (4)
+Jan 25 09:23:43 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 162.41 ms (1)
+Jan 25 09:23:43 symfony [info] {sfWebResponse} Send content (294 o)
+Jan 25 09:24:10 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:24:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:24:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:24:11 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:24:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:24:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:24:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, Waruna123)
+Jan 25 09:24:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 25 09:24:12 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 25 09:24:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 25 09:24:13 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:24:13 symfony [info] {sfWebDebugLogger} Configuration 118.09 ms (9)
+Jan 25 09:24:13 symfony [info] {sfWebDebugLogger} Factories 353.17 ms (1)
+Jan 25 09:24:13 symfony [info] {sfWebDebugLogger} Action "api/auth" 1646.52 ms (1)
+Jan 25 09:24:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 26.08 ms (4)
+Jan 25 09:24:13 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 288.89 ms (1)
+Jan 25 09:24:13 symfony [info] {sfWebResponse} Send content (305 o)
+Jan 25 09:24:28 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_apix/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_apix',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:24:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:24:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:24:28 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:24:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:24:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_apix)
+Jan 25 09:24:29 symfony [err] {sfError404Exception} client with token "hrm_apix" does not exist or is not activated.
+Jan 25 09:24:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:24:31 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:24:31 symfony [info] {sfWebDebugLogger} Configuration 84.04 ms (8)
+Jan 25 09:24:31 symfony [info] {sfWebDebugLogger} Factories 339.40 ms (1)
+Jan 25 09:24:31 symfony [info] {sfWebDebugLogger} Action "api/auth" 2646.16 ms (1)
+Jan 25 09:24:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 13.53 ms (2)
+Jan 25 09:24:51 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna1/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna1',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:24:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:24:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:24:51 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:24:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:24:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:24:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, Waruna123)
+Jan 25 09:24:53 symfony [err] {sfError404Exception} invalid username or password.
+Jan 25 09:24:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:24:54 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:24:54 symfony [info] {sfWebDebugLogger} Configuration 93.68 ms (8)
+Jan 25 09:24:54 symfony [info] {sfWebDebugLogger} Factories 353.24 ms (1)
+Jan 25 09:24:54 symfony [info] {sfWebDebugLogger} Action "api/auth" 2967.92 ms (1)
+Jan 25 09:24:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 19.77 ms (3)
+Jan 25 09:25:05 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123x/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123x',  'sf_format' => 'json',)
+Jan 25 09:25:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:25:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:25:06 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:25:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:25:06 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:25:07 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, Waruna123x)
+Jan 25 09:25:07 symfony [err] {sfError404Exception} invalid username or password.
+Jan 25 09:25:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:25:09 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:25:09 symfony [info] {sfWebDebugLogger} Configuration 104.52 ms (8)
+Jan 25 09:25:09 symfony [info] {sfWebDebugLogger} Factories 415.80 ms (1)
+Jan 25 09:25:09 symfony [info] {sfWebDebugLogger} Action "api/auth" 3030.86 ms (1)
+Jan 25 09:25:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 19.12 ms (3)
+Jan 25 09:25:17 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:25:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:25:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:25:18 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:25:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:25:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:25:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, Waruna123)
+Jan 25 09:25:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 25 09:25:19 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 25 09:25:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 25 09:25:20 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:25:20 symfony [info] {sfWebDebugLogger} Configuration 95.01 ms (9)
+Jan 25 09:25:20 symfony [info] {sfWebDebugLogger} Factories 322.54 ms (1)
+Jan 25 09:25:20 symfony [info] {sfWebDebugLogger} Action "api/auth" 1588.52 ms (1)
+Jan 25 09:25:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 25.01 ms (4)
+Jan 25 09:25:20 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 142.96 ms (1)
+Jan 25 09:25:20 symfony [info] {sfWebResponse} Send content (305 o)
+Jan 25 09:27:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 25 09:27:48 symfony [info] {sfFrontWebController} Action "api/index" does not exist
+Jan 25 09:27:48 symfony [err] {sfError404Exception} Action "api/index" does not exist.
+Jan 25 09:27:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:27:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 25 09:27:49 symfony [info] {sfWebDebugLogger} Configuration 61.71 ms (5)
+Jan 25 09:27:50 symfony [info] {sfWebDebugLogger} Factories 517.32 ms (1)
+Jan 25 09:28:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /api with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 25 09:28:13 symfony [info] {sfFrontWebController} Action "api/index" does not exist
+Jan 25 09:28:14 symfony [err] {sfError404Exception} Action "api/index" does not exist.
+Jan 25 09:28:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:28:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 25 09:28:15 symfony [info] {sfWebDebugLogger} Configuration 59.26 ms (5)
+Jan 25 09:28:15 symfony [info] {sfWebDebugLogger} Factories 373.43 ms (1)
+Jan 25 09:28:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/hrm_api/ with parameters array (  'module' => 'api',  'action' => 'hrm_api',)
+Jan 25 09:28:28 symfony [info] {sfFrontWebController} Action "api/hrm_api" does not exist
+Jan 25 09:28:28 symfony [err] {sfError404Exception} Action "api/hrm_api" does not exist.
+Jan 25 09:28:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:28:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 25 09:28:30 symfony [info] {sfWebDebugLogger} Configuration 49.11 ms (5)
+Jan 25 09:28:30 symfony [info] {sfWebDebugLogger} Factories 320.25 ms (1)
+Jan 25 09:28:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/hrm_api with parameters array (  'module' => 'api',  'action' => 'hrm_api',)
+Jan 25 09:28:37 symfony [info] {sfFrontWebController} Action "api/hrm_api" does not exist
+Jan 25 09:28:37 symfony [err] {sfError404Exception} Action "api/hrm_api" does not exist.
+Jan 25 09:28:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:28:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 25 09:28:39 symfony [info] {sfWebDebugLogger} Configuration 49.85 ms (5)
+Jan 25 09:28:39 symfony [info] {sfWebDebugLogger} Factories 295.20 ms (1)
+Jan 25 09:29:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'hrm_api',  'waruna' => 'Waruna123',  'auth.json' => true,)
+Jan 25 09:29:07 symfony [info] {sfFrontWebController} Action "api/hrm_api" does not exist
+Jan 25 09:29:07 symfony [err] {sfError404Exception} Action "api/hrm_api" does not exist.
+Jan 25 09:29:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:29:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 25 09:29:08 symfony [info] {sfWebDebugLogger} Configuration 50.38 ms (5)
+Jan 25 09:29:08 symfony [info] {sfWebDebugLogger} Factories 315.79 ms (1)
+Jan 25 09:29:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'hrm_api',  'waruna' => 'Waruna123',  'auth.json' => true,)
+Jan 25 09:29:27 symfony [info] {sfFrontWebController} Action "api/hrm_api" does not exist
+Jan 25 09:29:27 symfony [err] {sfError404Exception} Action "api/hrm_api" does not exist.
+Jan 25 09:29:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:29:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 25 09:29:29 symfony [info] {sfWebDebugLogger} Configuration 53.37 ms (5)
+Jan 25 09:29:29 symfony [info] {sfWebDebugLogger} Factories 323.10 ms (1)
+Jan 25 09:29:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'hrm_api',  'waruna' => 'Waruna123',  'auth.json' => true,)
+Jan 25 09:29:43 symfony [info] {sfFrontWebController} Action "api/hrm_api" does not exist
+Jan 25 09:29:43 symfony [err] {sfError404Exception} Action "api/hrm_api" does not exist.
+Jan 25 09:29:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 25 09:29:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 25 09:29:45 symfony [info] {sfWebDebugLogger} Configuration 58.62 ms (5)
+Jan 25 09:29:45 symfony [info] {sfWebDebugLogger} Factories 377.36 ms (1)
+Jan 25 09:29:52 symfony [info] {sfPatternRouting} Match route "api_user" (/api/:token/:user_name/:password/auth.:sf_format) for /api/hrm_api/waruna/Waruna123/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'token' => 'hrm_api',  'user_name' => 'waruna',  'password' => 'Waruna123',  'sf_format' => 'json',)
+Jan 25 09:29:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 09:29:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 09:29:52 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 25 09:29:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 25 09:29:53 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 25 09:29:53 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, Waruna123)
+Jan 25 09:29:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 25 09:29:54 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 25 09:29:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 25 09:29:54 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 25 09:29:54 symfony [info] {sfWebDebugLogger} Configuration 127.68 ms (9)
+Jan 25 09:29:54 symfony [info] {sfWebDebugLogger} Factories 426.58 ms (1)
+Jan 25 09:29:54 symfony [info] {sfWebDebugLogger} Action "api/auth" 1639.73 ms (1)
+Jan 25 09:29:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 30.29 ms (4)
+Jan 25 09:29:54 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 148.46 ms (1)
+Jan 25 09:29:54 symfony [info] {sfWebResponse} Send content (305 o)

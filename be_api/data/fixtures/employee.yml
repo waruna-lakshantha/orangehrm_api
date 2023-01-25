@@ -1,0 +1,25 @@
+Employee:
+  1:
+    first_name: Waruna
+    last_name: Lakshantha
+    address: |
+              425/B/4,
+              Jayagath Mawatha,
+              Kahathuduwa,
+              Polgasowita.
+
+  2:
+    first_name: Kapila
+    last_name: Perera
+    address: |
+              10,
+              Katuwawala,
+              Boralesgamuwa.
+
+  3:
+    first_name: Amila
+    last_name: Fernando
+    address: |
+              15,
+              Nugegoda,
+              Sri Lanka.
