@@ -1,0 +1,20 @@
+Jan 27 06:12:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 27 06:12:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 27 06:12:16 symfony [info] {sfFrontWebController} Action "api/index" does not exist
+Jan 27 06:12:16 symfony [err] {sfError404Exception} Action "api/index" does not exist.
+Jan 27 09:27:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 27 09:27:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 27 09:27:53 symfony [info] {sfFrontWebController} Action "api/index" does not exist
+Jan 27 09:27:53 symfony [err] {sfError404Exception} Action "api/index" does not exist.
+Jan 27 09:36:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 27 09:36:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 27 09:36:01 symfony [info] {sfFrontWebController} Action "api/index" does not exist
+Jan 27 09:36:01 symfony [err] {sfError404Exception} Action "api/index" does not exist.
+Jan 27 09:45:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 27 09:45:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 27 09:45:02 symfony [info] {sfFrontWebController} Action "api/index" does not exist
+Jan 27 09:45:02 symfony [err] {sfError404Exception} Action "api/index" does not exist.
+Jan 27 14:17:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 27 14:17:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /api/index with parameters array (  'module' => 'api',  'action' => 'index',)
+Jan 27 14:17:26 symfony [info] {sfFrontWebController} Action "api/index" does not exist
+Jan 27 14:17:26 symfony [err] {sfError404Exception} Action "api/index" does not exist.

@@ -12,8 +12,6 @@ class apiActions extends sfActions
 {
   public function executeAuth(sfWebRequest $request)
   {
-    //$employee = $this->getRoute()->getObjects();
-
     if(!$request->isMethod(sfRequest::POST)){
       throw new sfError404Exception(sprintf('invalid requeust.', 'orangehrm'));
     }    
