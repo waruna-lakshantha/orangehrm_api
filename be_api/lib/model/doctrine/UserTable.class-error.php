@@ -46,7 +46,7 @@ class UserTable extends Doctrine_Table
 
       if (!$employee)
       {
-        throw new sfError404Exception(sprintf('employee details not found.', $parameters['user_name']));       
+        throw new sfError404Exception(sprintf('employee details not found.', $parameters['user_name']));
       }        
 
       return $employee;
