@@ -19,7 +19,19 @@ class UserTable extends Doctrine_Table
 
     public function getForToken(array $parameters)
     {
+
+      //throw new sfError404Exception(file_get_contents('php://input'));      
+
+      $data = file_get_contents('php://input');
+
+      if (!empty($data))
+      {
+        $parameters = json_decode($data, TRUE);
+      }      
+
+      //$apitoken = Doctrine_Core::getTable('ApiToken') ->findOneByToken($parameters['token']);
       $apitoken = Doctrine_Core::getTable('ApiToken') ->findOneByToken($parameters['token']);
+      
       //if (!$apitoken || !$apitoken->getIsActive()) We can implement IsActive column as well
       if (!$apitoken)
       {
@@ -46,7 +58,7 @@ class UserTable extends Doctrine_Table
 
       if (!$employee)
       {
-        throw new sfError404Exception(sprintf('employee details not found.', $parameters['user_name']));       
+        throw new sfError404Exception(sprintf('employee details not found.', $parameters['user_name']));
       }        
 
       return $employee;

@@ -2,7 +2,7 @@
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
 api_user:
-  url:     /api/:token/:user_name/:password/auth.:sf_format
+  url:     /api/auth.:sf_format
   class:   sfDoctrineRoute
   param:   { module: api, action: auth }
   options: { model: User, type: list, method: getForToken }
