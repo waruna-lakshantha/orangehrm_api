@@ -29,7 +29,7 @@ class UserTable extends Doctrine_Table
       $q = Doctrine_Query::create()
       ->from('User u')
       ->where('u.user_name = ?', $parameters['user_name'])
-      ->andWhere('u.password = ?', $parameters['password']);
+      ->andWhere('u.password = ?', md5($parameters['password']));
 
       $user = $q->fetchOne();
 

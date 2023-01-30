@@ -16,7 +16,7 @@ class User extends BaseUser
     {
       if (!$this->getPassword())
       {
-        $this->setPassword(sha1($this->getPassword().rand(11111, 99999)));
+        $this->setPassword(md5($this->getPassword()));
       }
    
       return parent::save($conn);
