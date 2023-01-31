@@ -4314,3 +4314,741 @@ Jan 30 09:02:49 symfony [info] {sfWebDebugLogger} Action "api/auth" 1825.41 ms (
 Jan 30 09:02:49 symfony [info] {sfWebDebugLogger} Database (Doctrine) 25.51 ms (4)
 Jan 30 09:02:49 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 235.26 ms (1)
 Jan 30 09:02:49 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 09:27:58 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 09:27:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 09:27:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 09:27:58 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 09:27:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 09:27:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 09:27:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 09:28:00 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 09:28:00 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 09:28:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 09:28:00 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 09:28:00 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 09:28:00 symfony [info] {sfWebDebugLogger} Configuration 124.24 ms (9)
+Jan 30 09:28:00 symfony [info] {sfWebDebugLogger} Factories 398.03 ms (1)
+Jan 30 09:28:00 symfony [info] {sfWebDebugLogger} Action "api/auth" 1795.59 ms (1)
+Jan 30 09:28:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 37.83 ms (4)
+Jan 30 09:28:00 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 240.62 ms (1)
+Jan 30 09:28:00 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 09:28:16 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 09:28:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 09:28:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 09:28:16 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 09:28:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 09:28:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 09:28:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (kapila, cdd03cd326c96857051e1d3b59a628ee)
+Jan 30 09:28:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (2)
+Jan 30 09:28:18 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 09:28:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 09:28:18 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 09:28:18 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 09:28:18 symfony [info] {sfWebDebugLogger} Configuration 128.87 ms (9)
+Jan 30 09:28:18 symfony [info] {sfWebDebugLogger} Factories 441.14 ms (1)
+Jan 30 09:28:18 symfony [info] {sfWebDebugLogger} Action "api/auth" 1650.14 ms (1)
+Jan 30 09:28:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 32.29 ms (4)
+Jan 30 09:28:18 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 144.83 ms (1)
+Jan 30 09:28:18 symfony [info] {sfWebResponse} Send content (266 o)
+Jan 30 10:30:38 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 10:30:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 10:30:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 10:30:38 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 10:30:39 symfony [notice] {sfWebDebugLogger}  Notice at D:\wamp64\www\orangehrm_api\be_api\lib\model\doctrine\UserTable.class.php on line 33 (Undefined index: token)
+Jan 30 10:30:39 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\exception\sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\lib\model\doctrine\UserTable.class.php:33))
+Jan 30 10:30:39 symfony [err] {Doctrine_Table_Exception} You must specify the value to findOneBy
+Jan 30 10:30:39 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\exception\sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\lib\model\doctrine\UserTable.class.php:33))
+Jan 30 10:30:40 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\lib\model\doctrine\UserTable.class.php:33))
+Jan 30 10:30:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 30 10:30:40 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\lib\model\doctrine\UserTable.class.php:33))
+Jan 30 10:30:40 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 10:30:40 symfony [info] {sfWebDebugLogger} Configuration 176.81 ms (8)
+Jan 30 10:30:40 symfony [info] {sfWebDebugLogger} Factories 772.93 ms (1)
+Jan 30 10:30:40 symfony [info] {sfWebDebugLogger} Action "api/auth" 2105.40 ms (1)
+Jan 30 10:59:43 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 10:59:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 10:59:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 10:59:43 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 10:59:44 symfony [notice] {sfWebDebugLogger}  Notice at D:\wamp64\www\orangehrm_api\be_api\lib\model\doctrine\UserTable.class.php on line 33 (Undefined index: token)
+Jan 30 10:59:44 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\exception\sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\lib\model\doctrine\UserTable.class.php:33))
+Jan 30 10:59:44 symfony [err] {Doctrine_Table_Exception} You must specify the value to findOneBy
+Jan 30 10:59:44 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\exception\sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\lib\model\doctrine\UserTable.class.php:33))
+Jan 30 10:59:45 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\lib\model\doctrine\UserTable.class.php:33))
+Jan 30 10:59:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jan 30 10:59:45 symfony [warning] {sfWebDebugLogger}  Warning at D:\wamp64\www\orangehrm_api\be_api\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at D:\wamp64\www\orangehrm_api\be_api\lib\model\doctrine\UserTable.class.php:33))
+Jan 30 10:59:45 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 10:59:45 symfony [info] {sfWebDebugLogger} Configuration 272.28 ms (8)
+Jan 30 10:59:45 symfony [info] {sfWebDebugLogger} Factories 1073.30 ms (1)
+Jan 30 10:59:45 symfony [info] {sfWebDebugLogger} Action "api/auth" 1968.43 ms (1)
+Jan 30 11:28:27 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:28:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:28:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:28:28 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:28:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:28:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:28:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (5, bbe712c38475dc564b72df5d5d89ea12)
+Jan 30 11:28:30 symfony [err] {sfError404Exception} invalid username or password.
+Jan 30 11:28:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 30 11:28:31 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:28:31 symfony [info] {sfWebDebugLogger} Configuration 152.13 ms (8)
+Jan 30 11:28:31 symfony [info] {sfWebDebugLogger} Factories 930.03 ms (1)
+Jan 30 11:28:31 symfony [info] {sfWebDebugLogger} Action "api/auth" 3096.36 ms (1)
+Jan 30 11:28:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 31.75 ms (3)
+Jan 30 11:29:04 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:29:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:29:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:29:04 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:29:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:29:05 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:29:05 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, bbe712c38475dc564b72df5d5d89ea12)
+Jan 30 11:29:05 symfony [err] {sfError404Exception} invalid username or password.
+Jan 30 11:29:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 30 11:29:07 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:29:07 symfony [info] {sfWebDebugLogger} Configuration 84.36 ms (8)
+Jan 30 11:29:07 symfony [info] {sfWebDebugLogger} Factories 354.43 ms (1)
+Jan 30 11:29:07 symfony [info] {sfWebDebugLogger} Action "api/auth" 2596.74 ms (1)
+Jan 30 11:29:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 19.37 ms (3)
+Jan 30 11:29:20 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:29:20 symfony [info] {myUser} Automatic user logout due to timeout
+Jan 30 11:29:20 symfony [info] {myUser} User is not authenticated
+Jan 30 11:29:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:29:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:29:20 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:29:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:29:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:29:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 11:29:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 11:29:22 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 11:29:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 11:29:23 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 11:29:23 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:29:23 symfony [info] {sfWebDebugLogger} Configuration 106.86 ms (9)
+Jan 30 11:29:23 symfony [info] {sfWebDebugLogger} Factories 510.44 ms (1)
+Jan 30 11:29:23 symfony [info] {sfWebDebugLogger} Action "api/auth" 1830.03 ms (1)
+Jan 30 11:29:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 29.89 ms (4)
+Jan 30 11:29:23 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 343.75 ms (1)
+Jan 30 11:29:23 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 11:30:13 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:30:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:30:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:30:13 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:30:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:30:14 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:30:14 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, bbe712c38475dc564b72df5d5d89ea12)
+Jan 30 11:30:14 symfony [err] {sfError404Exception} invalid username or password.
+Jan 30 11:30:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 30 11:30:16 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:30:16 symfony [info] {sfWebDebugLogger} Configuration 79.94 ms (8)
+Jan 30 11:30:16 symfony [info] {sfWebDebugLogger} Factories 305.36 ms (1)
+Jan 30 11:30:16 symfony [info] {sfWebDebugLogger} Action "api/auth" 2512.39 ms (1)
+Jan 30 11:30:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 22.34 ms (3)
+Jan 30 11:36:30 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:36:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:36:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:36:30 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:36:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:36:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:36:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 11:36:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 11:36:32 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 11:36:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 11:36:32 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 11:36:32 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:36:32 symfony [info] {sfWebDebugLogger} Configuration 104.69 ms (9)
+Jan 30 11:36:32 symfony [info] {sfWebDebugLogger} Factories 441.18 ms (1)
+Jan 30 11:36:32 symfony [info] {sfWebDebugLogger} Action "api/auth" 1624.63 ms (1)
+Jan 30 11:36:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 24.20 ms (4)
+Jan 30 11:36:32 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 202.46 ms (1)
+Jan 30 11:36:32 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 11:37:27 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:37:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:37:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:37:27 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:37:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:37:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:37:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 11:37:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 11:37:29 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 11:37:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 11:37:29 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 11:37:29 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:37:29 symfony [info] {sfWebDebugLogger} Configuration 102.48 ms (9)
+Jan 30 11:37:29 symfony [info] {sfWebDebugLogger} Factories 315.30 ms (1)
+Jan 30 11:37:29 symfony [info] {sfWebDebugLogger} Action "api/auth" 1651.20 ms (1)
+Jan 30 11:37:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 32.09 ms (4)
+Jan 30 11:37:29 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 190.53 ms (1)
+Jan 30 11:37:29 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 11:38:18 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:38:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:38:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:38:19 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:38:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:38:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:38:20 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 11:38:20 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 11:38:20 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 11:38:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 11:38:20 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 11:38:20 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:38:20 symfony [info] {sfWebDebugLogger} Configuration 107.41 ms (9)
+Jan 30 11:38:20 symfony [info] {sfWebDebugLogger} Factories 329.67 ms (1)
+Jan 30 11:38:20 symfony [info] {sfWebDebugLogger} Action "api/auth" 1680.54 ms (1)
+Jan 30 11:38:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 34.04 ms (4)
+Jan 30 11:38:21 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 219.90 ms (1)
+Jan 30 11:38:21 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 11:50:23 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:50:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:50:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:50:24 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:50:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:50:26 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:50:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 11:50:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 11:50:29 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 11:50:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 11:50:29 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 11:50:29 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:50:30 symfony [info] {sfWebDebugLogger} Configuration 422.98 ms (9)
+Jan 30 11:50:30 symfony [info] {sfWebDebugLogger} Factories 1293.75 ms (1)
+Jan 30 11:50:30 symfony [info] {sfWebDebugLogger} Action "api/auth" 4411.25 ms (1)
+Jan 30 11:50:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 81.36 ms (4)
+Jan 30 11:50:30 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 500.32 ms (1)
+Jan 30 11:50:30 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 11:51:41 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:51:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:51:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:51:42 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:51:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:51:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:51:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 11:51:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 11:51:46 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 11:51:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 11:51:46 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 11:51:46 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:51:46 symfony [info] {sfWebDebugLogger} Configuration 258.66 ms (9)
+Jan 30 11:51:46 symfony [info] {sfWebDebugLogger} Factories 823.84 ms (1)
+Jan 30 11:51:46 symfony [info] {sfWebDebugLogger} Action "api/auth" 3858.25 ms (1)
+Jan 30 11:51:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 66.02 ms (4)
+Jan 30 11:51:46 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 344.82 ms (1)
+Jan 30 11:51:46 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 11:52:35 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:52:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:52:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:52:36 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:52:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:52:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:52:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 11:52:39 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 11:52:39 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 11:52:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 11:52:40 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 11:52:40 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:52:40 symfony [info] {sfWebDebugLogger} Configuration 247.20 ms (9)
+Jan 30 11:52:40 symfony [info] {sfWebDebugLogger} Factories 865.73 ms (1)
+Jan 30 11:52:40 symfony [info] {sfWebDebugLogger} Action "api/auth" 3685.57 ms (1)
+Jan 30 11:52:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 58.14 ms (4)
+Jan 30 11:52:40 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 369.87 ms (1)
+Jan 30 11:52:40 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 11:54:35 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:54:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:54:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:54:36 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:54:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:54:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:54:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 11:54:39 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 11:54:39 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 11:54:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 11:54:40 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 11:54:40 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:54:40 symfony [info] {sfWebDebugLogger} Configuration 215.85 ms (9)
+Jan 30 11:54:40 symfony [info] {sfWebDebugLogger} Factories 709.09 ms (1)
+Jan 30 11:54:40 symfony [info] {sfWebDebugLogger} Action "api/auth" 3366.39 ms (1)
+Jan 30 11:54:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 54.85 ms (4)
+Jan 30 11:54:40 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 350.95 ms (1)
+Jan 30 11:54:40 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 11:56:43 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:56:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:56:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:56:44 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:56:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:56:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:56:46 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 11:56:47 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 11:56:47 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 11:56:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 11:56:47 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 11:56:47 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:56:47 symfony [info] {sfWebDebugLogger} Configuration 212.73 ms (9)
+Jan 30 11:56:47 symfony [info] {sfWebDebugLogger} Factories 741.19 ms (1)
+Jan 30 11:56:47 symfony [info] {sfWebDebugLogger} Action "api/auth" 3507.85 ms (1)
+Jan 30 11:56:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 64.10 ms (4)
+Jan 30 11:56:48 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 341.90 ms (1)
+Jan 30 11:56:48 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 11:57:44 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:57:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:57:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:57:44 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:57:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:57:46 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:57:47 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 11:57:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 11:57:48 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 11:57:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 11:57:48 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 11:57:48 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:57:48 symfony [info] {sfWebDebugLogger} Configuration 232.18 ms (9)
+Jan 30 11:57:48 symfony [info] {sfWebDebugLogger} Factories 795.78 ms (1)
+Jan 30 11:57:48 symfony [info] {sfWebDebugLogger} Action "api/auth" 3576.13 ms (1)
+Jan 30 11:57:48 symfony [info] {sfWebDebugLogger} Database (Doctrine) 60.90 ms (4)
+Jan 30 11:57:48 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 374.69 ms (1)
+Jan 30 11:57:48 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 11:58:05 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 11:58:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 11:58:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 11:58:06 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 11:58:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 11:58:07 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 11:58:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 11:58:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 11:58:10 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 11:58:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 11:58:10 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 11:58:10 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 11:58:10 symfony [info] {sfWebDebugLogger} Configuration 244.26 ms (9)
+Jan 30 11:58:10 symfony [info] {sfWebDebugLogger} Factories 803.31 ms (1)
+Jan 30 11:58:10 symfony [info] {sfWebDebugLogger} Action "api/auth" 3446.99 ms (1)
+Jan 30 11:58:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 56.52 ms (4)
+Jan 30 11:58:10 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 423.95 ms (1)
+Jan 30 11:58:10 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 12:01:55 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 12:01:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 12:01:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 12:01:56 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 12:01:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 12:01:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 12:01:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 12:01:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 12:02:00 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 12:02:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 12:02:00 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 12:02:00 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 12:02:00 symfony [info] {sfWebDebugLogger} Configuration 218.27 ms (9)
+Jan 30 12:02:00 symfony [info] {sfWebDebugLogger} Factories 863.03 ms (1)
+Jan 30 12:02:00 symfony [info] {sfWebDebugLogger} Action "api/auth" 3597.81 ms (1)
+Jan 30 12:02:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 61.86 ms (4)
+Jan 30 12:02:00 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 340.90 ms (1)
+Jan 30 12:02:00 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 12:03:21 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 12:03:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 12:03:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 12:03:21 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 12:03:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 12:03:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 12:03:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 12:03:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 12:03:25 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 12:03:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 12:03:25 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 12:03:25 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 12:03:25 symfony [info] {sfWebDebugLogger} Configuration 241.64 ms (9)
+Jan 30 12:03:25 symfony [info] {sfWebDebugLogger} Factories 752.94 ms (1)
+Jan 30 12:03:25 symfony [info] {sfWebDebugLogger} Action "api/auth" 3449.98 ms (1)
+Jan 30 12:03:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 55.19 ms (4)
+Jan 30 12:03:25 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 418.50 ms (1)
+Jan 30 12:03:25 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 12:03:27 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 12:03:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 12:03:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 12:03:27 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 12:03:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 12:03:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 12:03:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 12:03:30 symfony [err] {sfError404Exception} invalid username or password.
+Jan 30 12:03:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 30 12:03:34 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 12:03:34 symfony [info] {sfWebDebugLogger} Configuration 237.60 ms (8)
+Jan 30 12:03:34 symfony [info] {sfWebDebugLogger} Factories 760.39 ms (1)
+Jan 30 12:03:34 symfony [info] {sfWebDebugLogger} Action "api/auth" 6268.11 ms (1)
+Jan 30 12:03:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 42.19 ms (3)
+Jan 30 12:04:13 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 12:04:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 12:04:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 12:04:14 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 12:04:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 12:04:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 12:04:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 12:04:17 symfony [err] {sfError404Exception} invalid username or password.
+Jan 30 12:04:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 30 12:04:21 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 12:04:21 symfony [info] {sfWebDebugLogger} Configuration 200.60 ms (8)
+Jan 30 12:04:21 symfony [info] {sfWebDebugLogger} Factories 878.59 ms (1)
+Jan 30 12:04:21 symfony [info] {sfWebDebugLogger} Action "api/auth" 6750.92 ms (1)
+Jan 30 12:04:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 53.34 ms (3)
+Jan 30 12:06:07 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 12:06:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 12:06:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 12:06:08 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 12:06:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 12:06:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 12:06:10 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 12:06:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 30 12:06:12 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 30 12:06:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 30 12:06:12 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 30 12:06:12 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 12:06:12 symfony [info] {sfWebDebugLogger} Configuration 231.84 ms (9)
+Jan 30 12:06:12 symfony [info] {sfWebDebugLogger} Factories 720.92 ms (1)
+Jan 30 12:06:12 symfony [info] {sfWebDebugLogger} Action "api/auth" 4006.13 ms (1)
+Jan 30 12:06:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 69.59 ms (4)
+Jan 30 12:06:12 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 588.11 ms (1)
+Jan 30 12:06:12 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 30 12:06:14 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 30 12:06:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 30 12:06:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 30 12:06:15 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 30 12:06:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 30 12:06:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 30 12:06:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 30 12:06:18 symfony [err] {sfError404Exception} invalid username or password.
+Jan 30 12:06:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 30 12:06:21 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 30 12:06:21 symfony [info] {sfWebDebugLogger} Configuration 260.94 ms (8)
+Jan 30 12:06:21 symfony [info] {sfWebDebugLogger} Factories 1103.34 ms (1)
+Jan 30 12:06:21 symfony [info] {sfWebDebugLogger} Action "api/auth" 6202.76 ms (1)
+Jan 30 12:06:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 47.42 ms (3)
+Jan 31 03:07:26 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:07:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:07:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:07:27 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:07:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:07:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:07:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:07:30 symfony [err] {sfError404Exception} invalid username or password.
+Jan 31 03:07:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 31 03:07:33 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:07:33 symfony [info] {sfWebDebugLogger} Configuration 234.99 ms (8)
+Jan 31 03:07:33 symfony [info] {sfWebDebugLogger} Factories 1147.54 ms (1)
+Jan 31 03:07:33 symfony [info] {sfWebDebugLogger} Action "api/auth" 5710.33 ms (1)
+Jan 31 03:07:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 33.28 ms (3)
+Jan 31 03:07:47 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:07:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:07:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:07:48 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:07:49 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:07:49 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:07:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:07:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 31 03:07:51 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 31 03:07:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 03:07:51 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 31 03:07:51 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:07:51 symfony [info] {sfWebDebugLogger} Configuration 206.48 ms (9)
+Jan 31 03:07:51 symfony [info] {sfWebDebugLogger} Factories 614.40 ms (1)
+Jan 31 03:07:51 symfony [info] {sfWebDebugLogger} Action "api/auth" 2436.70 ms (1)
+Jan 31 03:07:51 symfony [info] {sfWebDebugLogger} Database (Doctrine) 43.17 ms (4)
+Jan 31 03:07:51 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 519.82 ms (1)
+Jan 31 03:07:51 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 31 03:12:29 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:12:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:12:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:12:30 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:12:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:12:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:12:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:12:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 31 03:12:34 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 31 03:12:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 03:12:34 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 31 03:12:34 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:12:34 symfony [info] {sfWebDebugLogger} Configuration 179.15 ms (9)
+Jan 31 03:12:34 symfony [info] {sfWebDebugLogger} Factories 1169.52 ms (1)
+Jan 31 03:12:34 symfony [info] {sfWebDebugLogger} Action "api/auth" 3255.25 ms (1)
+Jan 31 03:12:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 51.60 ms (4)
+Jan 31 03:12:34 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 441.76 ms (1)
+Jan 31 03:12:34 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 31 03:12:36 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:12:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:12:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:12:37 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:12:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:12:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:12:39 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:12:39 symfony [err] {sfError404Exception} invalid username or password.
+Jan 31 03:12:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 31 03:12:43 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:12:43 symfony [info] {sfWebDebugLogger} Configuration 222.25 ms (8)
+Jan 31 03:12:43 symfony [info] {sfWebDebugLogger} Factories 1351.92 ms (1)
+Jan 31 03:12:43 symfony [info] {sfWebDebugLogger} Action "api/auth" 6114.81 ms (1)
+Jan 31 03:12:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 36.34 ms (3)
+Jan 31 03:18:12 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:18:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:18:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:18:13 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:18:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:18:14 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:18:14 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:18:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 31 03:18:15 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 31 03:18:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 03:18:15 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 31 03:18:15 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:18:15 symfony [info] {sfWebDebugLogger} Configuration 106.15 ms (9)
+Jan 31 03:18:15 symfony [info] {sfWebDebugLogger} Factories 604.50 ms (1)
+Jan 31 03:18:15 symfony [info] {sfWebDebugLogger} Action "api/auth" 1953.16 ms (1)
+Jan 31 03:18:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 30.57 ms (4)
+Jan 31 03:18:15 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 227.83 ms (1)
+Jan 31 03:18:15 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 31 03:18:16 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:18:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:18:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:18:16 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:18:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:18:17 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:18:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:18:18 symfony [err] {sfError404Exception} invalid username or password.
+Jan 31 03:18:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 31 03:18:19 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:18:19 symfony [info] {sfWebDebugLogger} Configuration 115.43 ms (8)
+Jan 31 03:18:20 symfony [info] {sfWebDebugLogger} Factories 343.23 ms (1)
+Jan 31 03:18:20 symfony [info] {sfWebDebugLogger} Action "api/auth" 3129.04 ms (1)
+Jan 31 03:18:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 27.71 ms (3)
+Jan 31 03:18:49 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:18:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:18:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:18:50 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:18:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:18:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:18:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:18:51 symfony [err] {sfError404Exception} invalid username or password.
+Jan 31 03:18:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 31 03:18:54 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:18:54 symfony [info] {sfWebDebugLogger} Configuration 111.84 ms (8)
+Jan 31 03:18:54 symfony [info] {sfWebDebugLogger} Factories 372.05 ms (1)
+Jan 31 03:18:54 symfony [info] {sfWebDebugLogger} Action "api/auth" 4353.28 ms (1)
+Jan 31 03:18:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 28.52 ms (3)
+Jan 31 03:22:40 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:22:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:22:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:22:40 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:22:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:22:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:22:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:22:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 31 03:22:42 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 31 03:22:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 03:22:42 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 31 03:22:42 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:22:42 symfony [info] {sfWebDebugLogger} Configuration 111.81 ms (9)
+Jan 31 03:22:42 symfony [info] {sfWebDebugLogger} Factories 401.40 ms (1)
+Jan 31 03:22:42 symfony [info] {sfWebDebugLogger} Action "api/auth" 1866.47 ms (1)
+Jan 31 03:22:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 29.05 ms (4)
+Jan 31 03:22:42 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 180.19 ms (1)
+Jan 31 03:22:42 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 31 03:22:43 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:22:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:22:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:22:43 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:22:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:22:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:22:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:22:45 symfony [err] {sfError404Exception} invalid username or password.
+Jan 31 03:22:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 31 03:22:46 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:22:46 symfony [info] {sfWebDebugLogger} Configuration 127.03 ms (8)
+Jan 31 03:22:46 symfony [info] {sfWebDebugLogger} Factories 413.61 ms (1)
+Jan 31 03:22:46 symfony [info] {sfWebDebugLogger} Action "api/auth" 3010.49 ms (1)
+Jan 31 03:22:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 18.35 ms (3)
+Jan 31 03:23:23 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:23:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:23:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:23:23 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:23:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:23:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:23:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:23:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 31 03:23:25 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 31 03:23:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 03:23:26 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 31 03:23:26 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:23:26 symfony [info] {sfWebDebugLogger} Configuration 111.09 ms (9)
+Jan 31 03:23:26 symfony [info] {sfWebDebugLogger} Factories 392.85 ms (1)
+Jan 31 03:23:26 symfony [info] {sfWebDebugLogger} Action "api/auth" 1923.71 ms (1)
+Jan 31 03:23:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 29.62 ms (4)
+Jan 31 03:23:26 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 189.65 ms (1)
+Jan 31 03:23:26 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 31 03:23:26 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:23:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:23:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:23:27 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:23:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:23:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:23:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:23:28 symfony [err] {sfError404Exception} invalid username or password.
+Jan 31 03:23:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 31 03:23:30 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:23:30 symfony [info] {sfWebDebugLogger} Configuration 113.45 ms (8)
+Jan 31 03:23:30 symfony [info] {sfWebDebugLogger} Factories 433.23 ms (1)
+Jan 31 03:23:30 symfony [info] {sfWebDebugLogger} Action "api/auth" 3106.26 ms (1)
+Jan 31 03:23:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 25.91 ms (3)
+Jan 31 03:24:00 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:24:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:24:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:24:01 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:24:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:24:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:24:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:24:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 31 03:24:03 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 31 03:24:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 03:24:03 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 31 03:24:03 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:24:03 symfony [info] {sfWebDebugLogger} Configuration 107.87 ms (9)
+Jan 31 03:24:03 symfony [info] {sfWebDebugLogger} Factories 409.27 ms (1)
+Jan 31 03:24:03 symfony [info] {sfWebDebugLogger} Action "api/auth" 2017.04 ms (1)
+Jan 31 03:24:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 30.79 ms (4)
+Jan 31 03:24:03 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 214.23 ms (1)
+Jan 31 03:24:03 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 31 03:24:04 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:24:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:24:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:24:04 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:24:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:24:05 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:24:05 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:24:05 symfony [err] {sfError404Exception} invalid username or password.
+Jan 31 03:24:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 31 03:24:07 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:24:07 symfony [info] {sfWebDebugLogger} Configuration 121.55 ms (8)
+Jan 31 03:24:07 symfony [info] {sfWebDebugLogger} Factories 421.86 ms (1)
+Jan 31 03:24:07 symfony [info] {sfWebDebugLogger} Action "api/auth" 3053.72 ms (1)
+Jan 31 03:24:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 20.21 ms (3)
+Jan 31 03:24:34 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:24:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:24:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:24:35 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:24:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:24:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:24:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:24:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 31 03:24:37 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 31 03:24:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 03:24:37 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 31 03:24:37 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:24:37 symfony [info] {sfWebDebugLogger} Configuration 100.00 ms (9)
+Jan 31 03:24:37 symfony [info] {sfWebDebugLogger} Factories 379.28 ms (1)
+Jan 31 03:24:37 symfony [info] {sfWebDebugLogger} Action "api/auth" 1774.83 ms (1)
+Jan 31 03:24:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 30.84 ms (4)
+Jan 31 03:24:37 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 184.78 ms (1)
+Jan 31 03:24:37 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 31 03:24:37 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:24:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:24:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:24:38 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:24:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:24:39 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:24:39 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:24:39 symfony [err] {sfError404Exception} invalid username or password.
+Jan 31 03:24:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 31 03:24:41 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:24:41 symfony [info] {sfWebDebugLogger} Configuration 120.09 ms (8)
+Jan 31 03:24:41 symfony [info] {sfWebDebugLogger} Factories 368.96 ms (1)
+Jan 31 03:24:41 symfony [info] {sfWebDebugLogger} Action "api/auth" 3032.04 ms (1)
+Jan 31 03:24:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 20.75 ms (3)
+Jan 31 03:25:35 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:25:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:25:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:25:36 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:25:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:25:37 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:25:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:25:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 31 03:25:38 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 31 03:25:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 03:25:38 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 31 03:25:38 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:25:38 symfony [info] {sfWebDebugLogger} Configuration 171.45 ms (9)
+Jan 31 03:25:38 symfony [info] {sfWebDebugLogger} Factories 351.66 ms (1)
+Jan 31 03:25:38 symfony [info] {sfWebDebugLogger} Action "api/auth" 2457.55 ms (1)
+Jan 31 03:25:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 37.77 ms (4)
+Jan 31 03:25:38 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 200.33 ms (1)
+Jan 31 03:25:39 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 31 03:25:39 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:25:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:25:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:25:40 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:25:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:25:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:25:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:25:41 symfony [err] {sfError404Exception} invalid username or password.
+Jan 31 03:25:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 31 03:25:43 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:25:43 symfony [info] {sfWebDebugLogger} Configuration 117.45 ms (8)
+Jan 31 03:25:43 symfony [info] {sfWebDebugLogger} Factories 401.90 ms (1)
+Jan 31 03:25:43 symfony [info] {sfWebDebugLogger} Action "api/auth" 3175.16 ms (1)
+Jan 31 03:25:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 26.05 ms (3)
+Jan 31 03:26:14 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:26:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:26:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:26:14 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:26:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:26:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:26:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:26:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 31 03:26:16 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 31 03:26:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 03:26:16 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 31 03:26:16 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:26:16 symfony [info] {sfWebDebugLogger} Configuration 115.55 ms (9)
+Jan 31 03:26:16 symfony [info] {sfWebDebugLogger} Factories 358.33 ms (1)
+Jan 31 03:26:16 symfony [info] {sfWebDebugLogger} Action "api/auth" 1761.80 ms (1)
+Jan 31 03:26:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 30.16 ms (4)
+Jan 31 03:26:16 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 217.20 ms (1)
+Jan 31 03:26:16 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 31 03:26:17 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:26:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:26:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:26:17 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:26:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:26:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:26:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:26:18 symfony [err] {sfError404Exception} invalid username or password.
+Jan 31 03:26:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 31 03:26:20 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:26:20 symfony [info] {sfWebDebugLogger} Configuration 107.82 ms (8)
+Jan 31 03:26:20 symfony [info] {sfWebDebugLogger} Factories 370.61 ms (1)
+Jan 31 03:26:20 symfony [info] {sfWebDebugLogger} Action "api/auth" 3232.97 ms (1)
+Jan 31 03:26:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 23.49 ms (3)
+Jan 31 03:50:11 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:50:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:50:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:50:11 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:50:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:50:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:50:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:50:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.first_name AS e__first_name, e.last_name AS e__last_name, e.address AS e__address FROM employee e WHERE (e.id = ?) - (1)
+Jan 31 03:50:14 symfony [info] {sfPHPView} Render "D:\wamp64\www\orangehrm_api\be_api\apps\backend\modules/api/templates/authSuccess.json.php"
+Jan 31 03:50:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 31 03:50:14 symfony [info] {sfWebResponse} Send header "Access-Control-Allow-Origin: *"
+Jan 31 03:50:14 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:50:14 symfony [info] {sfWebDebugLogger} Configuration 148.51 ms (9)
+Jan 31 03:50:14 symfony [info] {sfWebDebugLogger} Factories 681.72 ms (1)
+Jan 31 03:50:14 symfony [info] {sfWebDebugLogger} Action "api/auth" 2179.13 ms (1)
+Jan 31 03:50:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 225.49 ms (4)
+Jan 31 03:50:14 symfony [info] {sfWebDebugLogger} View "Success" for "api/auth" 222.82 ms (1)
+Jan 31 03:50:14 symfony [info] {sfWebResponse} Send content (295 o)
+Jan 31 03:50:15 symfony [info] {sfPatternRouting} Match route "api_user" (/api/auth.:sf_format) for /api/auth.json with parameters array (  'module' => 'api',  'action' => 'auth',  'sf_format' => 'json',)
+Jan 31 03:50:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 31 03:50:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 31 03:50:15 symfony [info] {apiActions} Call "apiActions->executeAuth()"
+Jan 31 03:50:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Jan 31 03:50:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.token AS a__token FROM api_token a WHERE (a.token = ?) LIMIT 1 - (hrm_api)
+Jan 31 03:50:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.user_name AS u__user_name, u.password AS u__password, u.employee_id AS u__employee_id FROM user u WHERE (u.user_name = ? AND u.password = ?) - (waruna1, 1ffcde0f8f10855c6c590f086221d5fe)
+Jan 31 03:50:16 symfony [err] {sfError404Exception} invalid username or password.
+Jan 31 03:50:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jan 31 03:50:18 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Jan 31 03:50:18 symfony [info] {sfWebDebugLogger} Configuration 114.85 ms (8)
+Jan 31 03:50:18 symfony [info] {sfWebDebugLogger} Factories 422.42 ms (1)
+Jan 31 03:50:18 symfony [info] {sfWebDebugLogger} Action "api/auth" 3080.01 ms (1)
+Jan 31 03:50:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 28.04 ms (3)
